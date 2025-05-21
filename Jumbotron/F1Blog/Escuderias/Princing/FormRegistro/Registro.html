@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Registro Básico con Opción PayPal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="registro.css" rel="stylesheet">
+</head>
+<header class="pb-3 mb-4 border-bottom">
+    <a href="#" class="d-flex align-items-center text-dark text-decoration-none custom-text">
+        <svg width="100" height="50" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="me-2">
+            <g transform="translate(0,1024) scale(0.1,-0.1)" fill="#ffffff" stroke="none">
+                <path d="M3641 6189 c-438 -28 -731 -112 -988 -286 -160 -108 -325 -264 -1143
+                            -1080 l-855 -853 631 0 630 0 580 573 c318 314 602 590 629 613 223 182 415
+                            249 790 274 90 6 781 10 1719 10 l1570 0 100 97 c56 54 230 225 388 380 l287
+                            283 -2107 -1 c-1159 -1 -2163 -5 -2231 -10z"/>
+                <path d="M7140 5085 l-1115 -1115 664 0 663 0 1117 1115 1116 1115 -665 0
+                            -665 0 -1115 -1115z"/>
+                <path d="M3948 5219 c-216 -12 -373 -47 -499 -110 -116 -58 -224 -156 -708
+                            -642 l-490 -492 580 -3 581 -2 196 198 c209 211 245 237 363 269 58 15 164 18
+                            1155 23 l1091 5 389 382 389 383 -1455 -2 c-800 0 -1517 -5 -1592 -9z"/>
+                <path d="M8180 4310 c0 -30 1 -30 55 -30 l55 0 0 -155 0 -155 35 0 35 0 0 155
+                            0 155 60 0 60 0 0 30 0 30 -150 0 -150 0 0 -30z"/>
+                <path d="M8540 4156 l0 -186 30 0 29 0 3 138 3 137 50 -138 c49 -137 49 -138
+                            79 -135 28 3 31 9 75 133 l46 130 3 -132 3 -133 34 0 35 0 0 185 0 185 -47 0
+                            -48 0 -49 -141 c-26 -77 -51 -137 -55 -134 -3 4 -27 66 -52 138 l-46 132 -47
+                            3 -46 3 0 -185z"/>
+            </g>
+        </svg>
+        <span class="fs-4">REGISTRO F1 VICTOR</span>
+    </a>
+</header>
+<body class="bg-light">
+<div class="container vh-100">
+    <div class="row h-100 justify-content-center align-items-start">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-5">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h2 class="mb-4 text-center">Registro</h2>
+                    <form id="registroForm">
+                        <div class="mb-3">
+                            <label for="usuario" class="form-label">Usuario</label>
+                            <input type="text" class="form-control" id="usuario" name="usuario" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contrasena" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="contrasena" name="contrasena" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Tipo de registro</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="tipoRegistro" id="gratisRadio"
+                                       value="gratis" checked/>
+                                <label class="form-check-label" for="gratisRadio">Gratis</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="tipoRegistro" id="donacionRadio"
+                                       value="donacion"/>
+                                <label class="form-check-label" for="donacionRadio">Donación</label>
+                            </div>
+                        </div>
+                        <div id="paypalBoton" style="display: none;" class="mb-3 text-center">
+                            <!-- Botón para ir al registro de PayPal -->
+                            <a href="https://www.paypal.com/signin" target="_blank" rel="noopener"
+                               class="btn boton-jumb2">
+                                PayPal
+                            </a>
+                        </div>
+                        <a href="../../album-principal.html" class="btn btn-success w-100 btn-primary">Registrarse</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const gratisRadio = document.getElementById('gratisRadio');
+    const donacionRadio = document.getElementById('donacionRadio');
+    const paypalBoton = document.getElementById('paypalBoton');
+
+    function togglePaypalButton() {
+        if (donacionRadio.checked) {
+            paypalBoton.style.display = 'block';
+        } else {
+            paypalBoton.style.display = 'none';
+        }
+    }
+
+    gratisRadio.addEventListener('change', togglePaypalButton);
+    donacionRadio.addEventListener('change', togglePaypalButton);
+
+    // Inicializar estado al cargar la página
+    togglePaypalButton();
+</script>
+</body>
+</html>

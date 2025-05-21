@@ -1,0 +1,147 @@
+body {
+    background-image: url('img/banner3_3.jpg');
+    background-size: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #15151d;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-text-container {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+.album {
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbo-back-1 {
+    background-image: url('img/jumbo-noti.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;;
+    border: 1px solid white;
+    height: 32rem;
+}
+
+.jumbo-back-2 {
+    background-image: url('img/jumbo-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    border: 1px solid white;
+}
+
+.jumbo-back-3 {
+    background-image: url('img/escuderias-jumbo.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border: 1px solid white;
+}
+
+.jumbo-back-4 {
+    background-image: url('img/pilotos-jumb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.ferrari-red {
+    background-color: #DC0000;
+}
+
+.ferrari-red2 {
+    background-color: #8B0000;
+}
+
+.btn-primary {
+    background-color: #DC0000;
+    border-color: #DC0000;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #8B0000;
+    border-color: #8B0000;
+}
+
+.boton-jumb2 {
+    background-color: gray;
+    border-color: gray;
+    color: #fff;
+}
+
+.boton-jumb2:hover {
+    background-color: #333333;
+    border-color: #333333;
+    color: #fff;
+}
+
+.boton-jumb3 {
+    background-color: #22997A;
+    border-color: #22997A;
+    color: #fff;
+}
+
+.boton-jumb3:hover {
+    background-color: #1E7A60;
+    border-color: #1E7A60;
+    color: #fff;
+}
+
+.custom-text {
+    color: white !important;
+}
+
+.custom-text2 {
+    color: white;
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            1px 1px 0 black;
+}
+
+footer a {
+    color: #DC0000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #8B0000;
+}
+
+.text-muted  {
+    text-align: center;
+}
+
+.botones-pilotos .btn {
+    white-space: nowrap;
+    font-size: 0.95rem;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: auto;
+}

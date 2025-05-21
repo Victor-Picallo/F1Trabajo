@@ -1,0 +1,59 @@
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.custom-card {
+    max-width: 600px; /* Establece un ancho máximo */
+}
+
+body {
+    background-image: url('../Escuderias/img/banner3.jpg');
+    background-size: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #15151d;
+}
+
+.album {
+    background-image: url('../Escuderias/img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ferrari-red {
+    background-color: #DC0000;
+}
+
+.ferrari-red2 {
+    background-color: #8B0000;
+}
+
+.btn-primary {
+    background-color: #DC0000;
+    border-color: #DC0000;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #8B0000;
+    border-color: #8B0000;
+}
+
+.custom-text {
+    color: white;
+}
+
+footer a {
+    color: #DC0000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #8B0000;
+}
+

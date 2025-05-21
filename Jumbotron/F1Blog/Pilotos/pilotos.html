@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>ALBUM VICTOR</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+
+    <style>
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+    </style>
+
+    <!-- En ocasiones se añade un CSS especifico para el ejemplo -->
+    <link href="../Escuderias/index.css" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+    <div class="collapse ferrari-red2" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4 class="text-white">Acerca de</h4>
+                    <p class="text-white">Aqui veremos los pilotos y haremos una pequeña descripcion sobre ellos.</p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white">Contacto</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Sigueme en Twitter</a></li>
+                        <li><a href="#" class="text-white">Sigueme en Facebook</a></li>
+                        <li><a href="#" class="text-white">Mandame un email</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark ferrari-red shadow-sm">
+
+        <div class="container">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <svg width="100" height="50" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="me-2">
+                    <g transform="translate(0,1024) scale(0.1,-0.1)" fill="#ffffff" stroke="none">
+                        <path d="M3641 6189 c-438 -28 -731 -112 -988 -286 -160 -108 -325 -264 -1143
+                            -1080 l-855 -853 631 0 630 0 580 573 c318 314 602 590 629 613 223 182 415
+                            249 790 274 90 6 781 10 1719 10 l1570 0 100 97 c56 54 230 225 388 380 l287
+                            283 -2107 -1 c-1159 -1 -2163 -5 -2231 -10z"/>
+                        <path d="M7140 5085 l-1115 -1115 664 0 663 0 1117 1115 1116 1115 -665 0
+                            -665 0 -1115 -1115z"/>
+                        <path d="M3948 5219 c-216 -12 -373 -47 -499 -110 -116 -58 -224 -156 -708
+                            -642 l-490 -492 580 -3 581 -2 196 198 c209 211 245 237 363 269 58 15 164 18
+                            1155 23 l1091 5 389 382 389 383 -1455 -2 c-800 0 -1517 -5 -1592 -9z"/>
+                        <path d="M8180 4310 c0 -30 1 -30 55 -30 l55 0 0 -155 0 -155 35 0 35 0 0 155
+                            0 155 60 0 60 0 0 30 0 30 -150 0 -150 0 0 -30z"/>
+                        <path d="M8540 4156 l0 -186 30 0 29 0 3 138 3 137 50 -138 c49 -137 49 -138
+                            79 -135 28 3 31 9 75 133 l46 130 3 -132 3 -133 34 0 35 0 0 185 0 185 -47 0
+                            -48 0 -49 -141 c-26 -77 -51 -137 -55 -134 -3 4 -27 66 -52 138 l-46 132 -47
+                            3 -46 3 0 -185z"/>
+                    </g>
+                </svg>
+                <span><strong>F1 VICTOR</strong></span>
+                <a href="../PaginaPrincipal.html" class="btn btn-primary fs-5" type="button"><strong>INICIO</strong></a>
+            </a>
+            <div class="d-flex align-items-center ms-auto gap-2">
+                <a href="../Escuderias/Princing/princing.html" class="btn btn-primary fs-5" type="button"><strong>REGISTRATE</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+                        aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <section class="py-5 text-center container custom-text">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">ALBUM VICTOR</h1>
+                <p class="custom-text lead">Pequeño album que conforma los pilotos de la F1.</p>
+                <p>
+                    <a href="../PaginaPrincipal.html" class="btn btn-secondary my-2">Principal</a>
+                    <a href="../Escuderias/album-principal.html" class="btn btn-primary my-2">Escuderias</a>
+                    <a href="../Monoplazas/monoplaza.html" class="btn btn-secondary my-2">Monoplazas</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="../Escuderias/img/mclaren-pil.jpg" class="bd-placeholder-img card-img-top img-fluid"
+                             width="200%"
+                             height="200" alt="McLaren F1 Team">
+
+                        <div class="card-body">
+                            <div class="card-text-container">
+                            <p class="card-text">Esta es la dupla de pilotos para este 2025 de McLaren. El primer piloto
+                                es el britanica joven y experimentado Lando Norris del que se espera
+                                que este año se convierta por primera vez en campeon de pilotos. Su segundo piloto es el
+                                joven australiano Oscar Piastri del cual se espera que sea un futuro
+                                campeon del mundo.</p>
+                            </div>
+                            <div class="d-flex gap-2 mt-2 botones-pilotos">
+                                <a href="CarruselPilotosIndividual/McLaren/OscarPiastri.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Oscar Piastri</a>
+                                <a href="CarruselPilotosIndividual/McLaren/LandoNorris.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Lando Norris</a>
+                            </div>
+                            <small class="text-muted">F1 Team</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="../Escuderias/img/ferrari-pil.jpg" class="bd-placeholder-img card-img-top img-fluid"
+                             width="200%"
+                             height="200" alt="Scuderia Ferrari HP">
+
+                        <div class="card-body">
+                            <div class="card-text-container">
+                            <p class="card-text">Esta es la dupla de pilotos para 2025 de Ferrari. Aqui no se sabe cual
+                                es el primer piloto. Pero su pareja esta compuesta por
+                                el siempre futura promesa el monegasco Charles Lecrerc y el britanico siete veces
+                                campeon del mundo Lewis Hamilton que esta en busca del octavo campeonato, en la
+                                escuderia
+                                mas laureada en la historia.</p>
+                            </div>
+                            <div class="d-flex gap-2 mt-2 botones-pilotos">
+                                <a href="CarruselPilotosIndividual/Ferrari/CharlesLecrerc.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Charles Leclerc</a>
+                                <a href="CarruselPilotosIndividual/Ferrari/LewisHamilton.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Lewis Hamilton</a>
+                            </div>
+                            <small class="text-muted">F1 Team</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="../Escuderias/img/redbull-pil.jpg" class="bd-placeholder-img card-img-top img-fluid"
+                             width="200%"
+                             height="200" alt="Red Bull Racing">
+
+                        <div class="card-body">
+                            <div class="card-text-container">
+                            <p class="card-text">Esta es la dupla de pilotos para 2025 de RedBull. Esta compuesta por su
+                                primer piloto el holandes y cuatro veces campeon del mundo
+                                Max Verstappen. Y su segundo piloto es el japones Yuki Tsunoda del cual se espera que
+                                pueda seguir el ritmo a su compañero de equipo.</p>
+                            </div>
+                            <div class="d-flex gap-2 mt-2 botones-pilotos">
+                                <a href="CarruselPilotosIndividual/RedBull/MaxVerstappen.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Max Verstappen</a>
+                                <a href="CarruselPilotosIndividual/RedBull/YukiTsunoda.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Yuki Tsunoda</a>
+                            </div>
+                            <small class="text-muted">F1 Team</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="../Escuderias/img/mercerdes-pil.jpg" class="bd-placeholder-img card-img-top img-fluid"
+                             width="200%"
+                             height="200" alt="Mercedes-AMG PETRONAS Formula One Team">
+                        <div class="card-body">
+                            <div class="card-text-container">
+                            <p class="card-text">Esta es la dupla de pilotos para este año 2025 de Mercedes. Su primer
+                                piloto es el britanico, joven y a la experimentado George Russell.
+                                Su segundo piloto es el italno y jovencisimo rookie Kimi Antonelli que se esperan
+                                grandes cosas de el, muchos dicen que sera un futuro campeon.</p>
+                            </div>
+                            <div class="d-flex gap-2 mt-2 botones-pilotos">
+                                <a href="CarruselPilotosIndividual/Mercedes/GeorgeRussell.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">George Russell</a>
+                                <a href="CarruselPilotosIndividual/Mercedes/KimiAntonelli.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Kimi Antonelli</a>
+                            </div>
+                            <small class="text-muted">F1 Team</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="../Escuderias/img/aston-pil.jpg" class="bd-placeholder-img card-img-top img-fluid"
+                             width="200%"
+                             height="200" alt="Aston Martin Aramco Formula One Team">
+
+                        <div class="card-body">
+                            <div class="card-text-container">
+                            <p class="card-text">Esta es la dupla para 2025 de Aston Martin. Su primer piloto es español
+                                veterano y dos veces campeon del mundo Fernando Alonso.
+                                Y su segundo piloto es el canadiense Lance Stroll que esta en el equipo por ser hijo del
+                                dueño.</p>
+                            </div>
+                            <div class="d-flex gap-2 mt-2 botones-pilotos">
+                                <a href="CarruselPilotosIndividual/AstonMartin/LanceStroll.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Lance Stroll</a>
+                                <a href="CarruselPilotosIndividual/AstonMartin/FernandoAlonso.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Fernando Alonso</a>
+                            </div>
+                            <small class="text-muted">F1 Team</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="../Escuderias/img/AlpineCola.jpg" class="bd-placeholder-img card-img-top img-fluid"
+                             width="200%"
+                             height="200" alt="BWT Alpine Formula One Team">
+
+                        <div class="card-body">
+                            <div class="card-text-container">
+                            <p class="card-text">Esta es la dupla de pilotos para 2025 de Alpine. Su primer piloto es el
+                                frances Pierre Gasly que se espera que lidere el equipo
+                                de vuelta a la parte alta de la parrilla. Y su segundo piloto es australiano rookie Jack
+                                Doohan hijo del mitico piloto de motos Mick Doohan.</p>
+                            </div>
+                            <div class="d-flex gap-2 mt-2 botones-pilotos">
+                                <a href="CarruselPilotosIndividual/Alpine/PierreGasly.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Pierre Gasly</a>
+                                <a href="CarruselPilotosIndividual/Alpine/FrancoColapinto.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Franco Colapinto</a>
+                            </div>
+                            <small class="text-muted">F1 Team</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="../Escuderias/img/haas-pil.jpg" class="bd-placeholder-img card-img-top img-fluid"
+                             width="200%"
+                             height="200" alt="MoneyGram Haas F1 Team">
+
+                        <div class="card-body">
+                            <div class="card-text-container">
+                            <p class="card-text">Esta es la dupla de pilotos para 2025 de Haas. Su primer piloto es el
+                                veterano france Estaban Ocon el cual se espera que lidere
+                                el equipo a la parte alta de la parrilla. Y el segundo piloto es el britanico y rookie
+                                Oliver Bearman del cual se espera que le luche a su compañero.</p>
+                            </div>
+                            <div class="d-flex gap-2 mt-2 botones-pilotos">
+                                <a href="CarruselPilotosIndividual/Haas/EstebanOcon.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Esteban Ocon</a>
+                                <a href="CarruselPilotosIndividual/Haas/OliverBearman.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Oliver Bearman</a>
+                            </div>
+                            <small class="text-muted">F1 Team</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="../Escuderias/img/rb-pil.jpg" class="bd-placeholder-img card-img-top img-fluid"
+                             width="200%"
+                             height="200" alt="Visa Cash App Racing Bulls Formula One Team">
+
+                        <div class="card-body">
+                            <div class="card-text-container">
+                            <p class="card-text">Esta es la dupla de pilotos para 2025 para Racing Bulls. El primer
+                                piloto es el neozelandes Liam Lawson del cual se esperaba mucho
+                                y solo ha decepcionado siendo degradado al equipo secundario de RedBull. Y el segundo es
+                                el frances rookie Isack Hajdar del cual se espera que sea regular
+                                y poco a poco agarre experiencia en la competicion.</p>
+                            </div>
+                            <div class="d-flex gap-2 mt-2 botones-pilotos">
+                                <a href="CarruselPilotosIndividual/RacingBulls/LiamLawson.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Liam Lawson</a>
+                                <a href="CarruselPilotosIndividual/RacingBulls/IsackHadjar.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Isack Hajdar</a>
+                            </div>
+                            <small class="text-muted">F1 Team</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="../Escuderias/img/williams-pil.jpg" class="bd-placeholder-img card-img-top img-fluid"
+                             width="200%"
+                             height="200" alt="Atlassian Williams Racing">
+
+                        <div class="card-body">
+                            <div class="card-text-container">
+                            <p class="card-text">Esta es la dupla de pilotos para 2025 de Williams. Pasa lo mismo que
+                                Ferrari no hay primer piloto claro. Su dupla esta formada
+                                por el tailandes Alexander Albon y el español Carlos Sainz. Se espera que trabajen en
+                                conjunto y consigan llevar a Williams a ser el mejor equipo
+                                de media tabla.</p>
+                            </div>
+                            <div class="d-flex gap-2 mt-2 botones-pilotos">
+                                <a href="CarruselPilotosIndividual/Williams/AlexanderAlbon.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Alexander Albon</a>
+                                <a href="CarruselPilotosIndividual/Williams/CarlosSainz.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Carlos Sainz</a>
+                            </div>
+                            <small class="text-muted">F1 Team</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <div class="card shadow-sm">
+                        <img src="../Escuderias/img/sauber-pil.jpg" class="bd-placeholder-img card-img-top img-fluid"
+                             width="200%"
+                             height="200" alt="Stake F1 Team Kick Sauber">
+
+                        <div class="card-body">
+                            <div class="card-text-container">
+                            <p class="card-text">Esta es la pareja de pilotos para 2025 de Kick Sauber. Su primer piloto
+                                es el veteranisimo aleman Nico Hulkenberg.
+                                Y el segundo piloto es el rookie y futura promesa brasileña Gabriel Bortoleto que es de
+                                la academia de pilotos de Fernando Alonso. De estos pilotos
+                                se espera poca cosa, solo que sean capaces de desarrollar el coche de 2026 por que
+                                pasaran a ser Audi.</p>
+                            </div>
+                            <div class="d-flex gap-2 mt-2 botones-pilotos">
+                                <a href="CarruselPilotosIndividual/KickSauber/NicoHulkenberg.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Nico Hulkenberg</a>
+                                <a href="CarruselPilotosIndividual/KickSauber/GabrielBortoleto.html" class="btn btn-sm btn-outline-secondary flex-fill text-nowrap">Gabriel Bortoleto</a>
+                            </div>
+                            <small class="text-muted">F1 Team</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer class="text-muted py-5">
+    <div class="container">
+        <p class="float-end mb-1">
+            <a href="#">Comienzo de Pagina</a>
+        </p>
+        <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+        <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a
+                href="../getting-started/introduction/">getting started guide</a>.</p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+<!-- En ocasiones podria haber un js especifico para el ejemplo -->
+</body>
+</html>

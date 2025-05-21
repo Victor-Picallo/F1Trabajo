@@ -1,0 +1,80 @@
+body {
+
+    background-image: url('../../img/bg4.jpg');
+    background-size: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #15151d;
+}
+
+.card-fondo {
+    background-image: url('../../img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    background-attachment: scroll;
+    border: 1px solid white;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.btn-primary {
+    background-color: #DC0000;
+    border-color: #DC0000;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #8B0000;
+    border-color: #8B0000;
+}
+
+footer a {
+    color: #DC0000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #8B0000;
+}
+
+.boton-jumb2 {
+    background-color: gray;
+    border-color: gray;
+    color: #fff;
+}
+
+.boton-jumb2:hover {
+    background-color: #333333;
+    border-color: #333333;
+    color: #fff;
+}
+
+.custom-text {
+    color: white !important;
+}
+
+.custom-text2 {
+    color: white;
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            1px 1px 0 black;
+}
+
+.custom-text3 {
+    color: black !important;
+}
+
+.fila-uniforme {
+    border-bottom: 1px solid white;
+    width: 100%;
+}
